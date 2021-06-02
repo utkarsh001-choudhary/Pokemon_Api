@@ -1,0 +1,29 @@
+.outer-div{
+    
+    text-align: center;
+    padding: auto;
+    padding-top: 20px;
+    /* background-color:wheat; */
+}
+body{
+    margin: 0;
+    padding-top: 0;
+    background-color:wheat;
+}
+.pokemon-outer-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+    margin: auto;
+    padding: 10px;
+}
+.pokemon-inner-div{
+    padding: 8px;
+    background-color:cadetblue;
+    margin:3vw;
+    border-radius: 25px;
+    box-shadow: 5px 10px 18px #888888;
+}
